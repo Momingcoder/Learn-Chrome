@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "my clock",
     "version": "1.0.0",
-    "description": "my first chrome app",
+    "description": "My First Chrome App.",
     "icons": {
         "16": "images/icon16.png",
         "48": "images/icon48.png",
