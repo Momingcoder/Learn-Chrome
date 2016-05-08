@@ -3,6 +3,7 @@ function my_clock(el) {
     var h = today.getHours();
     var m = today.getHours();
     var s = today.getSeconds();
+    h = h >= 10 ? h : ('0' + h);
     m = m >= 10 ? m : ('0' + m);
     s = s >= 10 ? s : ('0' + s);
     el.innerHTML = h + ":" + m + ":" + s;
