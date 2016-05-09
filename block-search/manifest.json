@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "block search.",
+    "version": "1.0.0",
+    "description": "you can never touch your search button",
+    "content_scripts": [
+        {
+            "matches": ["https://www.baidu.com/"],
+            "js": ["js/cannot_touch.js"]
+        }
+    ]
+}
